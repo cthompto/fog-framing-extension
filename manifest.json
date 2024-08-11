@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Fog Framing",
+    "description": "A broswer extension verison of my work 'Exercises in Uncertainty: Fog Framing'",
+    "homepage_url": "https://github.com/cthompto/fog-framing-extension",
+    "version": "0.1",
+    "icons": {
+      "48": "icons/icon.png",
+      "96": "icons/icon@2x.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["./framing.js"]
+      }
+    ],
+    "web_accessible_resources": [
+        "images/fog-frame-front.svg",
+        "images/fog-frame-back.svg"
+    ]
+  }
