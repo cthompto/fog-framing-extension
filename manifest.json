@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Fog Framing",
-    "description": "A broswer extension verison of my work 'Exercises in Uncertainty: Fog Framing'",
+    "description": "A browser extension version of my work 'Exercises in Uncertainty: Fog Framing'",
     "homepage_url": "https://github.com/cthompto/fog-framing-extension",
     "version": "0.1",
     "icons": {
